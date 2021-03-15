@@ -7,7 +7,7 @@ var mongoose = require('mongoose');
 var cors = require("cors");
 
 mongoose
-  .connect("mongodbP://localhost:27017/movie-list", {
+  .connect("mongodb://localhost:27017/movie-list", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })

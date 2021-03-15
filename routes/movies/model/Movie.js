@@ -6,4 +6,4 @@ const movieSchema = new mongoose.Schema({
     },
 });
 
-module.exports = mongoose.model("grocery", grocerySchema);
+module.exports = mongoose.model("movie", movieSchema);
